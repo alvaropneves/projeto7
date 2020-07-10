@@ -1,0 +1,24 @@
+Manual de instruções e próximos passos:
+
+1. Baixar arquivos CSV de dados de todos os fundos e gestoras do DB da Monetus
+2. transformar esse CSV em JSON
+3. ter o campo slug
+    1. no banco tem alguma tabela que eu já tenho
+4. colocar o json no arquivo /data/feeds.js
+5. definir pagina de cada fundo em /api/feeds/[slug].js
+    1. Elaborar texto para a pagina - tirar ideia do comparador
+    2. Limpar o json. tirar infos que eu nao preciso
+6. Adsense
+	1. descobrir como coloca
+	2. criar conta
+7. Formatar pagina para ficar bonitinha
+8. descobrir como deploy em algum servidor gratis
+9. Criar blog (Blogger?)
+	1. colocar no header link pro blog
+	2. Inserir Adsense pro blog
+	3. criar posts em linha com os fundos que tem mais acesso, imagino que tenha a ver com os bancos
+
+
+
+feed-list.js -> define a lista de fundos da home page
+inserir GTM/analytics
