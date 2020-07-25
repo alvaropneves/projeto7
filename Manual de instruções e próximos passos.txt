@@ -1,5 +1,8 @@
 Manual de instruções e próximos passos:
 
+para rodar:
+root -> npm run dev
+
 1. Baixar arquivos CSV de dados de todos os fundos e gestoras do DB da Monetus
 2. transformar esse CSV em JSON
 3. ter o campo slug

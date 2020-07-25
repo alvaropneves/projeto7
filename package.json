@@ -4,9 +4,10 @@
   "description": "A Next.js 9 example app",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+      "build": "next build",
+      "start": "next start -p $PORT",
+      "dev": "next",
+      "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
