@@ -13,29 +13,11 @@ export default function Feed({ feed }) {
       <div className="info_fundo">
         <h1>{feed.full_name}</h1>
         <div>CNPJ: {feed.cnpj}</div>
+        <div>Objetivos: {feed.goals}</div>
       
 
-      <div>Tipo do fundo: {feed.anbima_class}</div>
-      <div>Risco: {feed.risk}</div>
-      <div>Benchmark: {feed.benchmark}</div>
-      <div>Prazo de resgate: COLOCAR !!!!!</div>
-      <div>Taxa de administração: COLOCAR !!!! </div>
-      <div>Taxa de performance: {feed.charge_performance} do que exceder o {feed.charge_performance_index}</div>
-      <div>Aplicação mínima: {feed.investiment_initial}</div>
-      <div>Objetivos: {feed.goals}</div>
-      <div>Política do fundo: {feed.description_politics}</div>
       </div>
-      <br></br>
-      <div>Informações sobre a gestora</div>
-      <div className="info_gestora">
-      <a href={feed.contact_website}>
-            Site da gestora
-          </a> (Olhar !!!!! rodar o exemplo cru e ver como ele usa URL)
-      <div>Nome da gestora: {feed.nickname_gestora}</div>
-      <div>Diretor: {feed.director}</div>
-      <div>E-mail: {feed.email}</div>
-      <div>Telefone: {feed.contact_phone}</div>
-      </div>
+
       
 
 
