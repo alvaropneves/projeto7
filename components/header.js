@@ -7,6 +7,13 @@ const Header = () => {
         <Link href="/">
           <a>Tudo sobre fundos de investimento</a>
         </Link>
+        
+      </div>
+      <div className="logo2">
+        <a href="https://google.com">
+          <a>Ir para o blog</a>
+        </a>
+        
       </div>
       <style jsx>{`
         header {

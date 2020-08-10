@@ -8,7 +8,7 @@ const FeedList = ({ feeds }) => {
           <div className="feed" key={feed.slug}>
             <Link href="/feed/[slug]" as={`/feed/${feed.slug}`}>
               <a>
-                <div>{feed.Nome} sera?</div>
+                <div>{feed.full_name} sera?</div>
               </a>
             </Link>
           </div>
