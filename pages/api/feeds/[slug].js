@@ -11,12 +11,12 @@ export default async (req, res) => {
     feed.posts = [];
 
     let r = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${feed.url}`);
-    let data1 = await r.json();
+    let data = await r.json();
 
     if (data && data.items) {
       data.items.map(post => {
         feed.posts.push({
-          title: feed.title,
+          title: post.title,
           published: distanceInWordsToNow(post.pubDate) + ' ago',
           link: post.link,
           author: striptags(post.author),
