@@ -1,8 +1,8 @@
 const feeds = [
   {
-    title: 'Smashing Magazines alvaro',
+    title: 'Sros',
     risk: 'm',
-    slug: 'smashingmagazines',
+    slug: 'smashingmagazine',
     website: 'https://www.smashingmagazine.com',
     url: 'https://www.smashingmagazine.com/feed/'
   },
