@@ -54,7 +54,7 @@ Feed.getInitialProps = async ({ res, query }) => {
   let feed = await r.json();
 
   if (feed.error && res) {
-    res.statusCode = 404;
+    res.statusCode = 405;
   }
 
   return {
