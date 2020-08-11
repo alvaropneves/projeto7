@@ -9,17 +9,20 @@ export default function Feed({ feed }) {
   }
 
   return (
-    <Page title={feed.full_name}>
-      <div className="info_fundo">
-        <h1>{feed.full_name}</h1>
-        <div>CNPJ: {feed.cnpj}</div>
-        <div>Objetivos: {feed.goals}</div>
-      
-
+    <Page title={feed.title}>
+      <div className="feed">
+        <img className="image" src={`/static/images/${feed.slug}.png`} />
+        <h1>{feed.title}</h1>
+        <div className="links">
+          <a href={feed.website} target="_blank">
+            Website
+          </a>{' '}
+          |{' '}
+          <a href={feed.url} target="_blank">
+            RSS Feed
+          </a>
+        </div>
       </div>
-
-      
-
 
       {feed.posts.length ? <PostList posts={feed.posts} /> : <div>Posts are not available at the moment</div>}
       <style jsx>{`
