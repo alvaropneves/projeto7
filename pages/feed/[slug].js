@@ -11,9 +11,12 @@ export default function Feed({ feed }) {
   return (
     <Page title={feed.full_name}>
       <div className="info_fundo">
-        <h1>{feed.full_name}</h1>
+        <h1>{feed.full_name} oi </h1>
         <div>CNPJ: {feed.cnpj}</div>
         <div>Objetivos: {feed.goals}</div>
+        <div>Risco: {feed.risk}</div>
+        <div>Objetivos: {feed.contact_website}</div>
+
       
 
       </div>
