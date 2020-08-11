@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <div className="logo">
         <Link href="/">
-          <a>Next Feed Reader</a>
+          <a>Next Feed Reader no git</a>
         </Link>
       </div>
       <style jsx>{`
