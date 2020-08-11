@@ -22,6 +22,7 @@ export default function Feed({ feed }) {
             RSS Feed
           </a>
         </div>
+        risco: {feed.risk}
       </div>
 
       {feed.posts.length ? <PostList posts={feed.posts} /> : <div>Posts are not available at the moment</div>}
