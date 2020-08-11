@@ -1,6 +1,6 @@
 const feeds = [
   {
-    title: 'Smashing Magazine',
+    title: 'Smashing Magazines alvaro',
     risk: 'm',
     slug: 'smashingmagazine',
     website: 'https://www.smashingmagazine.com',
