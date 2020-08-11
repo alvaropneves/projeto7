@@ -21,7 +21,7 @@ export default function Feed({ feed }) {
       
 
 
-      {feed.posts.length ? <PostList posts={feed.posts} /> : <div>Posts are not available at the moment</div>}
+      
       <style jsx>{`
         .feed {
           margin-bottom: 30px;
