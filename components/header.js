@@ -5,15 +5,8 @@ const Header = () => {
     <header>
       <div className="logo">
         <Link href="/">
-          <a>Tudo sobre fundos de investimento</a>
+          <a>Next Feed Reader</a>
         </Link>
-        
-      </div>
-      <div className="logo2">
-        <a href="https://google.com">
-          <a>Ir para o blog</a>
-        </a>
-        
       </div>
       <style jsx>{`
         header {
@@ -22,9 +15,9 @@ const Header = () => {
         }
         .logo a {
           text-shadow: rgba(0, 0, 0, 0.13) 3px 3px 5px;
-          font-size: 40px;
+          font-size: 32px;
           font-weight: 900;
-          color: #190;
+          color: #111;
         }
       `}</style>
     </header>

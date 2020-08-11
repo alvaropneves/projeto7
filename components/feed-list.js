@@ -8,7 +8,8 @@ const FeedList = ({ feeds }) => {
           <div className="feed" key={feed.slug}>
             <Link href="/feed/[slug]" as={`/feed/${feed.slug}`}>
               <a>
-                <div>{feed.full_name} sera?</div>
+                <img src={`/static/images/${feed.slug}.png`} />
+                <div>{feed.title}</div>
               </a>
             </Link>
           </div>

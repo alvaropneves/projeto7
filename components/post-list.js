@@ -4,7 +4,7 @@ const PostList = ({ posts }) => {
       {posts.map((post, i) => {
         return (
           <div className="post" key={i}>
-            <h2>{post.title} ((( njkndjks</h2>
+            <h2>{post.title}</h2>
             <div className="info">
               {post.author ? (
                 <span>
@@ -17,7 +17,7 @@ const PostList = ({ posts }) => {
               {post.preview}
               {'... '}
               <a href={post.link} target="_blank">
-                read more ?
+                read more
               </a>
             </div>
           </div>
