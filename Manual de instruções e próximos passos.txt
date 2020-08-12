@@ -11,6 +11,9 @@ root -> npm run dev
 5. definir pagina de cada fundo em /api/feeds/[slug].js
     1. Elaborar texto para a pagina - tirar ideia do comparador
     2. Limpar o json. tirar infos que eu nao preciso
+
+tem que criar um endpoint para cada fundo e retornar um json #osso
+
 6. Adsense
 	1. descobrir como coloca
 	2. criar conta
