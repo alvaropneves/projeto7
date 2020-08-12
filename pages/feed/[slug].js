@@ -12,7 +12,7 @@ export default function Feed({ feed }) {
     <Page title={feed.title}>
       <div className="feed">
         <img className="image" src={`/static/images/${feed.slug}.png`} />
-        <h1>{feed.title}</h1>
+        <h1>{feed.title} as</h1>
         <div className="links">
           <a href={feed.website} target="_blank">
             Website
