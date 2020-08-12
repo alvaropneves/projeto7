@@ -25,7 +25,7 @@ export default function Feed({ feed }) {
         risco: {feed.risk}
       </div>
 
-      {feed.posts.length ? <PostList posts={feed.posts} /> : <div>Posts are not available at the moment</div>}
+    
       <style jsx>{`
         .feed {
           margin-bottom: 30px;
@@ -48,16 +48,5 @@ export default function Feed({ feed }) {
   );
 }
 
-Feed.getInitialProps = async ({ res, query }) => {
-  let api_base = process.env.NODE_ENV == 'production' ? 'https://next-feed-reader.now.sh' : 'http://localhost:3000';
-  let r = await fetch(`${api_base}/api/feeds/${query.slug}`);
-  let feed = await r.json();
 
-  if (feed.error && res) {
-    res.statusCode = 404;
-  }
 
-  return {
-    feed
-  };
-};
